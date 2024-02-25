@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cureency.css">
+</head>
+
+<body>
+    <div id="layout">
+        <h2>Currency Converter</h2>
+        <form>
+            <p id="enter1">Enter Amount</p>
+            <input class="enter" type="text" name="input" value="1" >
+            <!-- <button>Submit</button> -->
+        
+        <div id="dropdowns">
+           
+            <div id="formo">
+                <p>From</p>
+                <div id="drop">
+                <img  id="img1" src="https://flagsapi.com/US/flat/64.png" alt="loading">
+                <select id="select1" name="from"></select>
+                </div>
+                
+
+            </div>
+            <div id="formm">
+                <img id=formi src="./asset/con2.png">
+            </div>
+
+            <div id="formt">
+                <p>To</p>
+                <div id="drop">
+                    <img id="img2"src="https://flagsapi.com/IN/flat/64.png">
+                    <select id="select2" name="to"></select>
+                </div>
+               
+
+            </div>
+
+        </div>
+        <div id="msg">
+            <p>1 Usd = 80 INR</p>
+        </div>
+
+        <div id="btn_div">
+        <button id="btn">
+            <p>Get Exchange Rate</p>
+        </button>
+        </div>
+    </form>
+    </div>
+    <script src="./codes.js"></script>
+    <script src="./currency.js"></script>
+    
+
+</body>
+
+</html>

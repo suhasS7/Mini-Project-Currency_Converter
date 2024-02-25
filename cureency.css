@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#layout {
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+    background-color:rgb(33, 228, 228);
+    box-shadow: 0px 0px 10px 10px rgb(169, 81, 81);
+
+
+}
+
+body {
+
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d2a3f1;
+}
+
+form {
+    margin-top: 30px;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+#dropdowns {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+#btn {
+    font-size: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-top: 40px;
+    background-color: #66db6c;
+
+
+
+}
+#btn:hover{
+    box-shadow: 0px 0px 5px 5px rgb(208, 61, 112);
+
+}
+img{
+    height: 50px;
+    width: 50px;
+
+}
+.drop{
+    border:2px solid black;
+    width: px;
+    height: 100px;
+    display: flex;
+}
+.select{
+    height: 50px; 
+
+}
+#formi{
+    display: flex;
+}
+.containers{
+    height: 50px;
+    margin-top: 10px;
+}
+#formo{
+   
+    margin-left: 40px;
+}
+#formt{
+    margin-right: 40px;
+}
+#formi{
+    margin-top: 30px;
+    width: 30px;
+    height: 30px;
+}
+#msg{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+#enter1{
+    font-size: 20px;
+}
+.enter{
+    font-size: 20px;
+}
+.enter:hover{
+    box-shadow: 0px 0px 5px 5px rgb(175, 56, 76);
+
+    
+}
+#select1{
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+}
+#select2{
+    margin-top: 10px;
+    width: 60px;
+    height: 30px;
+}
+#drop{
+    display: flex;
+
+}
